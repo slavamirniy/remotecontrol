@@ -1,2 +1,1 @@
-3:echo "hello" > %USERPROFILE%\Desktop\some.txt
-4:echo "hi" > %USERPROFILE%\Desktop\some.txt
+5: echo "hi" > %USERPROFILE%\Desktop\some.txt
