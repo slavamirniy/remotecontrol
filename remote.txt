@@ -1,5 +1,5 @@
 48#iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
-scoop bucket add main
-scoop bucket add extras
-scoop install nodejs
-scoop install git
+49#scoop bucket add main
+50#scoop bucket add extras
+51#scoop install nodejs
+52#scoop install git
