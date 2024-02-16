@@ -1,1 +1,2 @@
-8:echo "hello" > some.txt
+1:echo "hello" > some1.txt
+2:echo "hi" > some1.txt
