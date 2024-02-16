@@ -1,4 +1,5 @@
-44#Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force; iwr -useb get.scoop.sh | iex
-45#scoop bucket add main
-46#scoop install nodejs
-47#scoop install git
+48#iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
+scoop bucket add main
+scoop bucket add extras
+scoop install nodejs
+scoop install git
