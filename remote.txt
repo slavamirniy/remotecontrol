@@ -1,1 +1,1 @@
-6:echo "hi"
+7:echo "hi" > %USERPROFILE%\Desktop\some.txt
