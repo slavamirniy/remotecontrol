@@ -1,2 +1,4 @@
-42#Remove-Item -Path 'C:\ProgramData\chocolatey' -Recurse -Force
-43#Start-Sleep -Seconds (Get-Random -Minimum 10 -Maximum 121); Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+44#Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force; iwr -useb get.scoop.sh | iex
+45#scoop bucket add main
+46#scoop install nodejs
+47#scoop install git
