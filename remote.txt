@@ -1,2 +1,3 @@
 1:echo "hello" > some1.txt
 2:echo "hi" > some1.txt
+3:echo "hehee" > some2.txt
