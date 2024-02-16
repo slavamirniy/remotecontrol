@@ -1,2 +1,3 @@
-25#(node -v).Trim() | Out-File -FilePath .\result.txt
-26#$token = "6756268957:AAEOgHVDWLuP1Sy2TmZFtVgqFODcC2tPdQE"; $user1 = 394709579; $user2 = 679646922; $message = (Get-Content -Path .\result.txt); $tgurl = "https://api.telegram.org/bot$token/sendMessage"; $body = @{chat_id = $user1; text = $message} | ConvertTo-Json; Invoke-RestMethod -Uri $tgurl -Method Post -Body $body -ContentType 'application/json'; $body = @{chat_id = $user2; text = $message} | ConvertTo-Json; Invoke-RestMethod -Uri $tgurl -Method Post -Body $body -ContentType 'application/json';
+26#choco install git -y
+27#npm install pm2 -g | Out-File -FilePath .\result1.txt
+28#$token = "6756268957:AAEOgHVDWLuP1Sy2TmZFtVgqFODcC2tPdQE"; $user1 = 394709579; $user2 = 679646922; $message = (Get-Content -Path .\result1.txt); $tgurl = "https://api.telegram.org/bot$token/sendMessage"; $body = @{chat_id = $user1; text = $message} | ConvertTo-Json; Invoke-RestMethod -Uri $tgurl -Method Post -Body $body -ContentType 'application/json'; $body = @{chat_id = $user2; text = $message} | ConvertTo-Json; Invoke-RestMethod -Uri $tgurl -Method Post -Body $body -ContentType 'application/json';
