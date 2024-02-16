@@ -1,4 +1,1 @@
-20#choco list -n
-21#(choco list -n | Select-String -Pattern 'Version' -SimpleMatch).Trim().Split(':')[1].Trim() | Out-File -FilePath .\result.txt
-22#https://api.telegram.org/bot6756268957:AAEOgHVDWLuP1Sy2TmZFtVgqFODcC2tPdQE/sendMessage?chat_id=394709579&text=n*(Get-Content -Path .\result.txt)*
-23#https://api.telegram.org/bot6756268957:AAEOgHVDWLuP1Sy2TmZFtVgqFODcC2tPdQE/sendMessage?chat_id=679646922&text=n*(Get-Content -Path .\result.txt)*
+
