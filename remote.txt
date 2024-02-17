@@ -1,1 +1,1 @@
-55#pm2 stop all
+57#pm2 ls
