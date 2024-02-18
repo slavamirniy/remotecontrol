@@ -1,1 +1,1 @@
-57#pm2 ls
+58#pm2 restart all
